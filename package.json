@@ -1,0 +1,30 @@
+{
+  "name": "markdownparser",
+  "version": "0.2.3",
+  "description": "Cordova Markdown Parser",
+  "cordova": {
+    "id": "cordova-plugin-markdown-parser",
+    "platforms": [
+      "android",
+      "browser"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:RoxaneKM/cordova-plugin-markdown-parser.git"
+  },
+  "keywords": [
+    "cordova",
+    "markdown",
+    "parser",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-browser"
+  ],
+  "author": "rkm",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/RoxaneKM/cordova-plugin-markdown-parser/issues"
+  },
+  "homepage": "https://github.com/RoxaneKM/cordova-plugin-markdown-parser#readme"
+}

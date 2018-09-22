@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-markdown-parser" version="0.2.3">
+    <name>MarkdownParser</name>
+    <description>Cordova Markdown Parser</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,markdown, parser</keywords>
+    <js-module src="www/markdownparser.js" name="markdownParser">
+        <clobbers target="markdownParser" />
+    </js-module>
+    
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="MarkdownParser" >
+                <param name="android-package" value="com.rkm.cordovaplugins.markdownparser.MarkdownParser" />
+            </feature>
+        </config-file>
+        <source-file src="src/android/MarkdownParser.java" target-dir="src/com/rkm/cordovaplugins/markdownparser" />
+    </platform>
+  
+    <platform name="browser">
+        <config-file target="config.xml" parent="/*">
+            <feature name="MarkdownParser">
+                <param name="browser-package" value="MarkdownParser" />
+            </feature>
+        </config-file>
+        <js-module src="src/browser/MarkdownParser.js" name="MarkdownParser">
+            <runs />
+        </js-module>
+    </platform>
+
+</plugin>
