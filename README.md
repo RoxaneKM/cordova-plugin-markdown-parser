@@ -2,10 +2,10 @@
 
 Plugin developed for one of my projects. Converts markdown syntax into HTML. 
 
-## Installation
+## Install
     cordova plugin add https://github.com/RoxaneKM/cordova-plugin-markdown-parser.git
 
-## Uninstallation 
+## Uninstall
     cordova plugin rm cordova-plugin-markdown-parser
 
 ## How to use
@@ -24,7 +24,7 @@ Plugin developed for one of my projects. Converts markdown syntax into HTML.
 
 
 ## Possible issues
-There may still be some uncaught markdown syntaxes.
+This plugin is still in development so there may still be some parsing issues.
 
 ## Supported platoforms
 * Android
