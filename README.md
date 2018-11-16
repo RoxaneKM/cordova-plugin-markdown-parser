@@ -29,7 +29,6 @@ This plugin is still in development so there may still be some parsing issues.
 ## Supported platoforms
 * Android
 * Browser
-* (*iOS comming soon*)
 
 ## Future developements
 * iOS platform support
