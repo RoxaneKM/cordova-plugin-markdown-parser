@@ -33,7 +33,7 @@ This plugin is still in development so there may still be some parsing issues.
 ## Future developements
 * iOS platform support
 
-## Authors
-* [RoxaneKM](https://github.com/RoxaneKM)
+## Author
+* [rkmarechal](https://github.com/rkmarechal)
 
 
