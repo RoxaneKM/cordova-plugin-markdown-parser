@@ -33,7 +33,5 @@ This plugin is still in development so there may still be some parsing issues.
 ## Future developements
 * iOS platform support
 
-## Author
-* [rkmarechal](https://github.com/rkmarechal)
 
 
